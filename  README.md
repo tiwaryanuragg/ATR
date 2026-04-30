@@ -244,42 +244,45 @@ saved model weights to see predictions and comparisons.
 ---
 
 ## Project Structure
+
+```
 ATR/
 ├── README.md
 ├── requirements.txt
 ├── Notebooks/
 │   ├── training_notebook.ipynb
 │   └── demo_notebook.ipynb
-├──Model_Diagrams/
-    ├── ResNet18/
-        ├── model_architecture.png
-        ├── confusion_matrix.png
-        ├── tsne_embeddings.png
-        ├── training_curves.png
-    ├── WideResNet28-2/
-        ├── model_architecture.png
-        ├── confusion_matrix.png
-        ├── tsne_embeddings.png
-        ├── training_curves.png
-    ├── STN + WideResNet28-2/
-        ├── model_architecture.png
-        ├── confusion_matrix.png
-        ├── tsne_embeddings.png
-        ├── training_curves.png
-    ├── STN + WideResNet28-2 + Treplet Loss/
-        ├── model_architecture.png
-        ├── confusion_matrix.png
-        ├── tsne_embeddings.png
-        ├── training_curves.png
-    ├── STN + WideResNet28-2 + CBAM + Triplet Loss/
-        ├── model_architecture.png
-        ├── confusion_matrix.png
-        ├── tsne_embeddings.png
-        ├── training_curves.png
-    ├── AllModels_comparison/
-        ├── all_models_traning_curves.png
-        ├── final_comparison.png
-        ├── training_curves.png
+├── Model_Diagrams/
+│   ├── ResNet18/
+│   │   ├── model_architecture.png
+│   │   ├── confusion_matrix.png
+│   │   ├── tsne_embeddings.png
+│   │   └── training_curves.png
+│   ├── WideResNet28-2/
+│   │   ├── model_architecture.png
+│   │   ├── confusion_matrix.png
+│   │   ├── tsne_embeddings.png
+│   │   └── training_curves.png
+│   ├── STN + WideResNet28-2/
+│   │   ├── model_architecture.png
+│   │   ├── confusion_matrix.png
+│   │   ├── tsne_embeddings.png
+│   │   └── training_curves.png
+│   ├── STN + WideResNet28-2 + Triplet Loss/
+│   │   ├── model_architecture.png
+│   │   ├── confusion_matrix.png
+│   │   ├── tsne_embeddings.png
+│   │   └── training_curves.png
+│   ├── STN + WideResNet28-2 + CBAM + Triplet Loss/
+│   │   ├── model_architecture.png
+│   │   ├── confusion_matrix.png
+│   │   ├── tsne_embeddings.png
+│   │   └── training_curves.png
+│   └── AllModels_comparison/
+│       ├── all_models_training_curves.png
+│       ├── final_comparison.png
+│       └── training_curves.png
+```
 
 ---
 
