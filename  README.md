@@ -251,32 +251,32 @@ ATR/
 │   ├── training_notebook.ipynb
 │   └── demo_notebook.ipynb
 ├──Model_Diagrams/
-    ├── ResNet18
+    ├── ResNet18/
         ├── model_architecture.png
         ├── confusion_matrix.png
         ├── tsne_embeddings.png
         ├── training_curves.png
-    ├── WideResNet28-2
+    ├── WideResNet28-2/
         ├── model_architecture.png
         ├── confusion_matrix.png
         ├── tsne_embeddings.png
         ├── training_curves.png
-    ├── STN + WideResNet28-2 
+    ├── STN + WideResNet28-2/
         ├── model_architecture.png
         ├── confusion_matrix.png
         ├── tsne_embeddings.png
         ├── training_curves.png
-    ├── STN + WideResNet28-2 + Treplet Loss
+    ├── STN + WideResNet28-2 + Treplet Loss/
         ├── model_architecture.png
         ├── confusion_matrix.png
         ├── tsne_embeddings.png
         ├── training_curves.png
-    ├── STN + WideResNet28-2 + CBAM + Triplet Loss
+    ├── STN + WideResNet28-2 + CBAM + Triplet Loss/
         ├── model_architecture.png
         ├── confusion_matrix.png
         ├── tsne_embeddings.png
         ├── training_curves.png
-    ├── AllModels_comparison
+    ├── AllModels_comparison/
         ├── all_models_traning_curves.png
         ├── final_comparison.png
         ├── training_curves.png
