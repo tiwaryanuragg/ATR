@@ -63,32 +63,6 @@ Embedding head → 128-dim (L2 normalized)
 CrossEntropy + Triplet Loss (hard negative mining)
 
 ---
-
-## Results — All 5 Models
-
-| Model | Architecture | Test Accuracy | k-NN Accuracy | Epochs |
-|---|---|---|---|---|
-| Model 1 | ResNet18 (baseline) | 99.65% | 99.79% | 25 |
-| Model 2 | WideResNet-28-2 | 93.03% | 95.63% | 25 |
-| Model 3 | WideResNet-28-2 + STN | 81.55% | 87.96% | 25 |
-| Model 4 | WideResNet + STN + Triplet | 97.39% | 99.72% | 50 |
-| **Model 5** | **WideResNet + STN + CBAM + Triplet** | **98.59%** | **98.52%** | **50** |
-
-### Per-class Results (Model 5)
-
-| Class | Precision | Recall | F1-Score |
-|---|---|---|---|
-| 2S1 | 0.9882 | 0.9598 | 0.9738 |
-| BRDM_2 | 0.9952 | 0.9858 | 0.9905 |
-| BTR_60 | **1.0000** | 0.9852 | 0.9926 |
-| D7 | **1.0000** | 0.9651 | 0.9822 |
-| SLICY | 0.9845 | **1.0000** | 0.9922 |
-| T62 | 0.9942 | 0.9942 | 0.9942 |
-| ZIL131 | 0.9718 | **1.0000** | 0.9857 |
-| ZSU_23_4 | 0.9628 | 0.9857 | 0.9741 |
-
----
-
 ## System Architecture
 
 ![ATR Pipeline](diagrams/atr_pipeline_diagram.png)
